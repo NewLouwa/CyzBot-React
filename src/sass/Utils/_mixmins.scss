@@ -1,0 +1,19 @@
+// mixins rules for breakpoints
+@import '_variables.scss';
+
+@mixin mobile-only {
+    @media screen and (max-width: map-get($breakpoints, mobile)){
+        @content;//ici on choisis ce que l'on veut mettre en responsive
+    }
+}
+@mixin tablet-only {
+    @media screen and (min-width: map-get($breakpoints, mobile)) and (max-width: map-get($breakpoints, tablet)){// intervalle de valeurs
+        grid-template-columns: 1fr;
+    }
+}
+@mixin desktop-only {
+    @media screen and (min-width: map-get($breakpoints, tablet)){
+        grid-template-columns: 1fr;
+    }
+}
+    

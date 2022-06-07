@@ -1,0 +1,37 @@
+
+//colours
+$colour-violet :(//map get data using ' map-get(map-var, index-name)
+    lighter: #613DC1,
+    light: #5829A7,
+    primary:#4E148C,
+    dark: #3D0E61,
+    darker: #2C0735
+    );
+
+$colour-blue :(//map get data using ' map-get(map-var, index-name)
+    lighter: #97DFFC,
+    light: #93CAF6,
+    primary:#8EB5F0,
+    dark: #858AE3,
+    darker: #7364D2
+    );
+//font-colors
+$colour-font-dark: hsl(5,25%,100%);
+$colour-font-light: rgba(15, 10, 10, 0.795);
+
+//bg colors
+$colour-bg-light: #f1f1f1;
+$colour-bg-dark: #282c34;
+
+$colour-invalid: #DB464B;
+
+//font-sizes
+
+
+//breakpoints size for responsive adaptation
+$breakpoints:( //map get data using ' map-get(map-var, index-name)
+    mobile: 320px,
+    tablet: 768px,
+    desktop: 1024px
+
+);

@@ -1,0 +1,30 @@
+//utils
+@import './sass/Utils/functions.scss';
+@import './sass/Utils/mixmins.scss';
+@import './sass/Utils/variables.scss';
+//vendors
+
+
+//base
+@import './sass/Base/base.scss';
+
+
+//components
+@import './sass/Components/themeButton.scss';
+
+
+
+//layouts
+@import './sass/Layout/navbar.scss';
+@import './sass/Layout/footer.scss';
+
+//pages
+@import './sass/Pages/landing.scss';
+@import './sass/Pages/blog.scss';
+@import './sass/Pages/projects.scss';
+@import './sass/Pages/about.scss';
+
+
+
+//theme
+@import './sass/Theme/themes.scss';

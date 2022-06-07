@@ -1,0 +1,22 @@
+{
+    "version": 3,
+    "mappings": "AIAA,AAAA,IAAI,CAAC;EACH,MAAM,EAAE,CAAC;EACT,WAAW,EAAE,iJAED;EACZ,sBAAsB,EAAE,WAAW;EACnC,uBAAuB,EAAE,SAAS;CACnC;;AAED,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,kEACF;CACZ;;ACVD,AAAA,aAAa,CAAA;EACT,OAAO,EAAE,CAAC;EACV,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EACnB,QAAQ,EAAE,KAAK;EACf,GAAG,EAAE,IAAI;EACT,KAAK,EAAG,IAAI;EACZ,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,iBAAiB;EACzB,aAAa,EAAE,GAAG;EAClB,UAAU,EAAE,KAAK;EACjB,KAAK,EAAE,OAAO;EACd,UAAU,EAAE,oBAAoB;EAChC,MAAM,EAAE,OAAO;CACd;;AAEL,AAAA,aAAa,AAAA,OAAO,CAAA;EAClB,UAAU,EAAE,OAAO;EACnB,KAAK,EAAE,OAAO;CACf;;AACD,AAAA,aAAa,AAAA,QAAQ,CAAA;EACnB,UAAU,EAAE,OAAO;EACnB,KAAK,EAAE,OAAO;CACf",
+    "sources": [
+        "main.scss",
+        "sass/Utils/_functions.scss",
+        "sass/Utils/_mixmins.scss",
+        "sass/Utils/_variables.scss",
+        "sass/Base/_base.scss",
+        "sass/Components/_themeButton.scss",
+        "sass/utils/_variables.scss",
+        "sass/Layout/_navbar.scss",
+        "sass/Layout/_footer.scss",
+        "sass/Pages/_home.scss",
+        "sass/Pages/_blog.scss",
+        "sass/Pages/_projects.scss",
+        "sass/Pages/_about.scss",
+        "sass/Theme/_light-dark.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}

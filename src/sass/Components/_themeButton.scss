@@ -1,0 +1,26 @@
+@import '../utils/_variables.scss';
+
+.theme__button{
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    right : 20px;
+    height: 50px;
+    width: 50px;
+    
+    border-radius: 50%;
+    color: $colour-bg-light;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    &.--goDark{
+      background-color: $colour-bg-dark;
+      border: 1px solid $colour-bg-light;
+    }
+    &.--goLight{
+      background-color: $colour-bg-light;
+      border: 1px solid $colour-bg-dark;
+    }
+  }
