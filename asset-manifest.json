@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CyzBot-React/static/css/main.1d7a692f.css",
+    "main.js": "/CyzBot-React/static/js/main.5cd4260a.js",
+    "static/media/sun.svg": "/CyzBot-React/static/media/sun.45c20b3b049c4192b38e7435e71e4adf.svg",
+    "index.html": "/CyzBot-React/index.html",
+    "static/media/moon.svg": "/CyzBot-React/static/media/moon.b9a0a3c985eae440f44d59619de0db02.svg",
+    "main.1d7a692f.css.map": "/CyzBot-React/static/css/main.1d7a692f.css.map",
+    "main.5cd4260a.js.map": "/CyzBot-React/static/js/main.5cd4260a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d7a692f.css",
+    "static/js/main.5cd4260a.js"
+  ]
+}
