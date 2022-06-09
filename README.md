@@ -1,3 +1,6 @@
+# This is me doing a personal website
+First time using sass ... 7-1
+App created with Create-React-app
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
