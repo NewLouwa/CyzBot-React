@@ -1,6 +1,7 @@
 {
   "name": "cyzbot-react",
   "version": "0.1.0",
+  "homepage": "./",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -43,6 +44,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "sass": "^1.52.2",
     "sass-loader": "^13.0.0",
     "webpack": "^5.73.0"

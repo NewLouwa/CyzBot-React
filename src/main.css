@@ -164,7 +164,7 @@ a {
     display: block;
     width: 100%;
     height: 2px;
-    background: #333;
+    background: rgb(71, 67, 67);
     position: absolute;
     pointer-events: none;
     transition: opacity 0.3s 0.15s ease-out;
@@ -198,19 +198,9 @@ a {
     left: 0;
     height: 100vh;
     padding: 15px 50px 15px 20px;
+    border-right: 1px solid #8EB5F0;
     transform: translate(-100%);
     transition: transform 0.3s ease-out;
-  }
-  .nav-links__container --Light {
-    background: #f1f1f1;
-    border-right: 1px solid #8EB5F0;
-  }
-  .nav-links__container --Dark {
-    background: #282c34;
-    border-right: 1px solid #4E148C;
-  }
-  .nav-links__container a:hover::after {
-    transform: scaleX(1);
   }
   .open {
     transform: translate(0%);
