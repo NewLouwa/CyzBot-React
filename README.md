@@ -1,5 +1,5 @@
 # This is me doing a personal website
-First time using sass ... 7-1.
+First time using sass compiled with dart ... 7-1.
 
 I used react router to simulate the loading of a new pages.
 
