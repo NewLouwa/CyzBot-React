@@ -1,7 +1,7 @@
 {
+  "homepage": "https://newlouwa.github.io/CyzBot-React",
   "name": "cyzbot-react",
   "version": "0.1.0",
-  "homepage": "./",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
