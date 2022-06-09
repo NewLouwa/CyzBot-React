@@ -1,7 +1,9 @@
 # This is me doing a personal website
-First time using sass ... 7-1
-I also used react router to simulate the loading of a new pages.
-i used also used prefixer.
+First time using sass ... 7-1.
+
+I used react router to simulate the loading of a new pages.
+
+i also used prefixer.
 
 App created with Create-React-app
 # Getting Started with Create React App
