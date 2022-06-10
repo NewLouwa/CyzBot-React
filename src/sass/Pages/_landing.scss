@@ -1,8 +1,6 @@
 @import "../Utils/mixmins.scss";
 .title__landing h1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
 }
 .div__landingPage{
     @include format__page;

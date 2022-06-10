@@ -5,6 +5,7 @@ import Blog from './views/blog/Blog';
 import About from './views/about/About';
 import LandingPage from './views/landing/LandingPage';
 import Projects from './views/projects/Projects';
+import NotFound from './views/NotFound/NotFound'; 
 //import navbar et theme
 import Navbar from './layout/navbar';
 import ThemeButton from './components/themeButton';
@@ -22,6 +23,7 @@ function App() {
         <Navbar />
         <ThemeButton />
       <Routes>
+        <Route path="*" element={<NotFound />} />
         <Route path="/" element={<LandingPage />} />
         <Route path="/about" element={<About />} />
         <Route path="/blog" element={<Blog />} />

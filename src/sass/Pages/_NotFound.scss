@@ -1,8 +1,8 @@
 @import "../Utils/mixmins.scss";
-.title__projects h2{
+.title__NotFound h1{
 
 }
-.div__projectsPage{
+.div__NotFound{
     @include format__page;
     @include format__page--theme;
 }

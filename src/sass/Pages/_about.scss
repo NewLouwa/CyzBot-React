@@ -2,9 +2,7 @@
 @import "../Utils/mixmins.scss";
 
 .title__about h2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
 }
 .div__aboutPage{
     @include format__page;
