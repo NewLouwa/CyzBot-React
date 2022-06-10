@@ -33,6 +33,12 @@ body.--Dark {
   color: hsl(5deg, 25%, 100%);
 }
 
+a {
+  text-decoration: none;
+  color: grey;
+  background-color: transparent;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }

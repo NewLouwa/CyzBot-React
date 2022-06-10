@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import { ThemeContext } from '../context/ThemeContext'
 import { Link } from 'react-router-dom'
+import icon from "./icon.svg" 
 
 import '../sass/Layout/_navbar.scss'
 import '../main.scss'
@@ -23,7 +24,7 @@ function Navbar(){
   return (
     <nav className={"nav--"+theme}>
 
-      <img src="/icon.svg" alt="dev icon" className='nav__icon'></img>
+      <img src={icon} alt="dev icon" className='nav__icon'></img>
       
       <div class="main-navlinks">
         <button className="hamburger" type="button" onClick={toggleNav} aria-label="Toggle navigation" aria-expanded="false">

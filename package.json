@@ -1,5 +1,5 @@
 {
-  "homepage": "https://NewLouwa.github.io/CyzBot-React",
+  "homepage": "http://cyzbot.com/",
   "name": "cyzbot-react",
   "version": "0.1.0",
   "private": true,
@@ -8,7 +8,6 @@
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "autoprefixer": "^10.4.7",
-    "normalize.css": "^8.0.1",
     "postcss": "^8.4.14",
     "postcss-cli": "^9.1.0",
     "react": "^18.1.0",
