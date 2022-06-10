@@ -3,11 +3,10 @@
   "name": "CyzBot",
   "icons": [
     {
-      "src": "/static/favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    }
-  ],
+      "src": "https://cyzbot.com/favicon.ico",
+      "sizes": "192x192",
+      "type": "image/svg"
+    }],
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",

@@ -19,6 +19,9 @@ $colour-blue :(//map get data using ' map-get(map-var, index-name)
 $colour-font-dark: hsl(5,25%,100%);
 $colour-font-light: rgba(15, 10, 10, 0.795);
 
+$colour-links-dark:map-get($colour-blue, $key:dark );
+$colour-links-light:map-get($colour-violet, $key:light);
+
 //bg colors
 $colour-bg-light: #f1f1f1;
 $colour-bg-dark: #282c34;

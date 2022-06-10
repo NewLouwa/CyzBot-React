@@ -9,7 +9,7 @@ import Projects from './views/projects/Projects';
 import Navbar from './layout/navbar';
 import ThemeButton from './components/themeButton';
 //on importe le style du theme
-import './main.scss'
+import './main.scss';
 import './sass/Base/_base.scss';
 import { ThemeContext } from './context/ThemeContext';
 

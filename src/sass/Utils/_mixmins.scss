@@ -1,6 +1,39 @@
 // mixins rules for breakpoints
 @import '_variables.scss';
 
+@mixin format__page--theme {
+    &.--Light{
+        background-color: $colour-bg-light;
+        color: $colour-font-light;
+    }
+    &.--Dark{
+        background-color: $colour-bg-dark;
+        color: $colour-font-dark;
+    }
+}
+
+@mixin links--text__theme{
+    &.--Light{
+        color: $colour-links-light;
+
+    }
+    &.--Dark{
+        color: $colour-links-dark;
+    }
+}
+
+
+
+@mixin format__page{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top:0;
+}
+
 @mixin mobile-only {
     @media screen and (max-width: map-get($breakpoints, mobile)){
         @content;//ici on choisis ce que l'on veut mettre en responsive

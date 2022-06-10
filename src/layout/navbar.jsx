@@ -26,7 +26,7 @@ function Navbar(){
 
       <img src={icon} alt="dev icon" className='nav__icon'></img>
       
-      <div class="main-navlinks">
+      <div className="main-navlinks">
         <button className="hamburger" type="button" onClick={toggleNav} aria-label="Toggle navigation" aria-expanded="false">
             <span></span>
             <span></span>

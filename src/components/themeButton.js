@@ -22,7 +22,6 @@ export default function ThemeButton() {
           return 'theme__button --goDark';
       }
   };    
-  console.log('2'+theme);
   return (
     <div onClick={toggleTheme} className={themeName()}>
     <img src={icn()} alt='icon theme'></img>
