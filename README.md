@@ -8,5 +8,5 @@ i also used prefixer.
 App created with Create-React-app
 
 
-This project is available here (even if it is still under developement and has issues that need to be fixed) [Here](https://newlouwa.github.io/CyzBot-React/)
+This project is available here (even if it is still under developement and has issues that need to be fixed) [Here](http://cyzbot.com/)
 
