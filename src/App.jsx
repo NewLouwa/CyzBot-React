@@ -7,6 +7,7 @@ import LandingPage from './views/landing/LandingPage';
 import Projects from './views/projects/Projects';
 import NotFound from './views/NotFound/NotFound'; 
 //import navbar et theme
+import Footer from './layout/footer';
 import Navbar from './layout/navbar';
 import ThemeButton from './components/themeButton';
 //on importe le style du theme
@@ -29,6 +30,7 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/projects" element={<Projects />} />
       </Routes>
+        <Footer />
       
     </div>
   );

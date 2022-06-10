@@ -1,0 +1,7 @@
+@import "../Utils/_variables.scss";
+@import "../Utils/mixmins.scss";
+
+.footer{
+    @include format__component(8vh, 100vw);
+    @include format__page--theme;
+}

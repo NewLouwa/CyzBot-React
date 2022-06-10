@@ -5,10 +5,12 @@
     &.--Light{
         background-color: $colour-bg-light;
         color: $colour-font-light;
+        border-top: 1px solid $colour-border-light;
     }
     &.--Dark{
         background-color: $colour-bg-dark;
         color: $colour-font-dark;
+        border-top: 1px solid $colour-border-dark;
     }
 }
 
@@ -21,8 +23,15 @@
         color: $colour-links-dark;
     }
 }
-
-
+@mixin format__component($heigth, $width){
+    height: $heigth;
+    width: $width;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top:0;
+}
 
 @mixin format__page{
     width: 100vw;

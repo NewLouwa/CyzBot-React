@@ -22,6 +22,10 @@ $colour-font-light: rgba(15, 10, 10, 0.795);
 $colour-links-dark:map-get($colour-blue, $key:dark );
 $colour-links-light:map-get($colour-violet, $key:light);
 
+//border color
+$colour-border-light: map-get($colour-blue, $key:light);
+$colour-border-dark: map-get($colour-violet, $key:dark);
+
 //bg colors
 $colour-bg-light: #f1f1f1;
 $colour-bg-dark: #282c34;
