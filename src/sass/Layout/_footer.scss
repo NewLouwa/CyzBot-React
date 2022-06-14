@@ -4,4 +4,13 @@
 .footer{
     @include format__component(8vh, 100vw);
     @include format__page--theme;
+    position : relative;
+    z-index: 5;
+}
+
+@media (max-width: map-get($breakpoints, tablet)) {
+    .footer{
+        @include format__component(8vh, 100vw);
+        @include format__page--theme;
+    }
 }

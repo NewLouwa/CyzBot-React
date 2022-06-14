@@ -14,7 +14,12 @@
 
 .App {
   width: 100vw;
-  height: 100% vh;
+  height: 100vh;
+}
+
+html {
+  width: 0vw;
+  height: 0vh;
 }
 
 body {
@@ -27,15 +32,16 @@ body {
 body.--Light {
   background-color: #f1f1f1;
   color: rgba(15, 10, 10, 0.795);
+  border-top: 1px solid #93CAF6;
 }
 body.--Dark {
   background-color: #282c34;
   color: hsl(5deg, 25%, 100%);
+  border-top: 1px solid #3D0E61;
 }
 
 a {
   text-decoration: none;
-  color: grey;
   background-color: transparent;
 }
 
@@ -137,8 +143,8 @@ nav.nav--Dark {
   display: flex;
   animation: rotateAnim 4s linear infinite;
   align-items: center;
-  position: fixed;
-  left: 15vw;
+  position: absolute;
+  left: 15vmax;
 }
 
 @media (max-width: 768px) {
@@ -197,9 +203,10 @@ nav.nav--Dark {
     flex-direction: column;
     align-items: flex-start;
     position: absolute;
+    background-color: #c5c5c6;
     top: 100%;
     left: 0;
-    height: 100vh;
+    height: 100vmax;
     padding: 15px 50px 15px 20px;
     border-right: 1px solid #8EB5F0;
     transform: translate(-100%);
@@ -211,6 +218,55 @@ nav.nav--Dark {
   .nav-links__container a {
     font-size: 18px;
     margin: 10px 0;
+  }
+  .nav-links__container a.--Light {
+    color: #5829A7;
+  }
+  .nav-links__container a.--Dark {
+    color: #858AE3;
+  }
+}
+.footer {
+  height: 8vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 0;
+  position: relative;
+  z-index: 5;
+}
+.footer.--Light {
+  background-color: #f1f1f1;
+  color: rgba(15, 10, 10, 0.795);
+  border-top: 1px solid #93CAF6;
+}
+.footer.--Dark {
+  background-color: #282c34;
+  color: hsl(5deg, 25%, 100%);
+  border-top: 1px solid #3D0E61;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    height: 8vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .footer.--Light {
+    background-color: #f1f1f1;
+    color: rgba(15, 10, 10, 0.795);
+    border-top: 1px solid #93CAF6;
+  }
+  .footer.--Dark {
+    background-color: #282c34;
+    color: hsl(5deg, 25%, 100%);
+    border-top: 1px solid #3D0E61;
   }
 }
 .div__landingPage {
@@ -225,10 +281,12 @@ nav.nav--Dark {
 .div__landingPage.--Light {
   background-color: #f1f1f1;
   color: rgba(15, 10, 10, 0.795);
+  border-top: 1px solid #93CAF6;
 }
 .div__landingPage.--Dark {
   background-color: #282c34;
   color: hsl(5deg, 25%, 100%);
+  border-top: 1px solid #3D0E61;
 }
 
 .div__blogPage {
@@ -243,10 +301,12 @@ nav.nav--Dark {
 .div__blogPage.--Light {
   background-color: #f1f1f1;
   color: rgba(15, 10, 10, 0.795);
+  border-top: 1px solid #93CAF6;
 }
 .div__blogPage.--Dark {
   background-color: #282c34;
   color: hsl(5deg, 25%, 100%);
+  border-top: 1px solid #3D0E61;
 }
 
 .div__projectsPage {
@@ -261,10 +321,12 @@ nav.nav--Dark {
 .div__projectsPage.--Light {
   background-color: #f1f1f1;
   color: rgba(15, 10, 10, 0.795);
+  border-top: 1px solid #93CAF6;
 }
 .div__projectsPage.--Dark {
   background-color: #282c34;
   color: hsl(5deg, 25%, 100%);
+  border-top: 1px solid #3D0E61;
 }
 
 .div__aboutPage {
@@ -279,10 +341,12 @@ nav.nav--Dark {
 .div__aboutPage.--Light {
   background-color: #f1f1f1;
   color: rgba(15, 10, 10, 0.795);
+  border-top: 1px solid #93CAF6;
 }
 .div__aboutPage.--Dark {
   background-color: #282c34;
   color: hsl(5deg, 25%, 100%);
+  border-top: 1px solid #3D0E61;
 }
 
 .Dark .background {

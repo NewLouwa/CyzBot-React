@@ -1,6 +1,7 @@
 import React, {useContext} from 'react';
 import {Routes, Route} from 'react-router-dom';
 //import des pages de l'app
+import Connect from './views/connect/Connect';
 import Blog from './views/blog/Blog';
 import About from './views/about/About';
 import LandingPage from './views/landing/LandingPage';
@@ -20,7 +21,7 @@ import { ThemeContext } from './context/ThemeContext';
 function App() {
   const { theme } = useContext(ThemeContext);
   return (
-    <div className={"App--"+theme}>
+    <div className={"App --"+theme}>
         <Navbar />
         <ThemeButton />
       <Routes>
@@ -29,6 +30,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/connect" element={<Connect />} />
       </Routes>
         <Footer />
       

@@ -1,0 +1,17 @@
+@import "../Utils/_mixmins.scss";
+@import "../Utils/_variables.scss";
+
+.SignUp__Page {
+  @include format__page;
+  @include format__page--theme;
+  flex-direction: row;
+}
+.signUp__container {
+  @include format__component(50vh, 50vw);
+  flex-direction: column;
+}
+.signIn__container {
+  @include format__component(35vh, 50vw);
+  flex-direction: column;
+  border-left: 1px solid $colour-border-light;
+}
